@@ -1,0 +1,19 @@
+.history {
+  margin: 0px auto;
+  padding: 0px;
+  border-radius: 2px;
+}
+
+.thead {
+  background-color: #ebeef2;
+  color: #272727;
+}
+
+.td,
+.th {
+  width: 290px;
+  height: 70px;
+  outline: 1px solid #ccc;
+  text-align: center;
+  color: #5c6975;
+}
