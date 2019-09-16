@@ -42,7 +42,7 @@ export default class Controls extends Component {
       return;
     }
 
-    this.props.onTransaction(this.state.amount, e.target.name);
+    this.props.onTransaction(Math.abs(this.state.amount), e.target.name);
     this.setState({
       amount: '',
     });
